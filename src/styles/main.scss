@@ -1,0 +1,42 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+.locked {
+  pointer-events: none;
+  opacity: .5;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.portfolio-listing {
+  .portfolio {
+    .portfolio-title {
+      hr {
+        border: 3px solid;
+        color: orange;
+      }
+    }
+
+    .portfolio-list {
+      .list-row {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.customise {
+  .table {
+    tbody {
+      .group-row {
+        border-left: 3px solid;
+      }
+      tr {
+        input {
+          max-width: 70px;
+        }
+      }
+    }
+  }
+}
